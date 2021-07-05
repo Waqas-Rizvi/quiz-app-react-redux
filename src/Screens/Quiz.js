@@ -32,7 +32,7 @@ export const Quiz = () => {
         <div className="container">
 
             {result ?
-                <div className="bg-primary p-5 mt-5" style={{ width: "30%", margin: "auto" }}>
+                <div className="bg-primary p-5 mt-5" style={{ width: "100%", margin: "auto" }}>
                     <center>
                         <h1 style={{ color: "white" }}>Result</h1>
                         <h5 style={{ color: "white" }}>Total Questions: {total}</h5>
